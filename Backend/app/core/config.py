@@ -1,6 +1,6 @@
 from functools import lru_cache
-from pydantic import field_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import field_validator  # type: ignore[reportMissingImports]
+from pydantic_settings import BaseSettings, SettingsConfigDict  # type: ignore[reportMissingImports]
 
 
 class Settings(BaseSettings):
