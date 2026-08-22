@@ -1,6 +1,11 @@
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+<<<<<<< HEAD
 import { AuthProvider, useAuth } from "@/context/AuthContext";
 import { ToastProvider } from "@/context/ToastContext";
+=======
+import { AuthProvider, useAuth } from "./context/AuthContext";
+import { ToastProvider } from "./context/ToastContext";
+>>>>>>> 7c98477d3d428d3dc4275f5222ce141a91c64676
 import AppLayout from "@/layouts/AppLayout";
 import Login from "@/pages/Login";
 import Dashboard from "@/pages/Dashboard";
@@ -54,4 +59,8 @@ export default function App() {
       </AuthProvider>
     </ToastProvider>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7c98477d3d428d3dc4275f5222ce141a91c64676
